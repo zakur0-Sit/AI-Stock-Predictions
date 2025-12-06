@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <header>
+            <p>AI Stock Predictions</p>
+        </header>
+        <main>
+            <div class="input-container">
+                <p class="suggest-msg">Add up to 3 stock tickers below to get a super accurate stock predictions report</p>
+                <p class="error-msg">You must add at least one ticker. A ticker is a 3 letter or more code for a stock. E.g. TSLA for Tesla.</p>
+                <div class="ticker-container">
+                    <form action="#" class="ticker-form">
+                        <input class="ticker-input" placeholder="MSFT" type="text">
+                        <button class="ticker-btn" type="submit">+</button>
+                    </form>
+                </div>
+                <div class="ticker-choice-display">
+                    <p>Your tickers will appear here...</p>
+                </div>
+                
+                <button class="generate-btn" disabled>GENERATE REPORT</button>
+            </div>
+            
+            <div class="loading-container">
+                <img alt="loading" src="images/loading.svg">
+                <p class="api-msg"></p>
+            </div>
+            
+            <div class="generated-report-container">
+            
+            </div>
+            
+        </main>
+        <footer>
+            <p>© 2025 AI Stock Predictions. All rights not reserved.</p>
+        </footer>
+        <script src="sctipt.js"></script>
+    </body>
+</html>
