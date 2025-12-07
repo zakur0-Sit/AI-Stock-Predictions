@@ -14,11 +14,6 @@ Do **not** use it for investment decisions.
 
 <img width="1211" height="651" alt="Screenshot_20251207_013605-1" src="https://github.com/user-attachments/assets/51f15ea3-3331-4cb6-a3d1-f88a03965d3d" />
 
-
-## ℹ️ About
-
-This project demonstrates a full-stack approach combining a simple frontend with a Node.js backend that securely interacts with OpenAI's API. It allows users to quickly get AI-generated trading advice for multiple stocks without exposing the API key in the frontend.
-
 ## 🚀 Features
 
 - **Add stock tickers**: Enter 3-letter or longer stock symbols (e.g., TSLA, AAPL) to include them in your report.
